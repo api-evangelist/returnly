@@ -62,6 +62,11 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/affirm/
+  name: Affirm
+  x-relationship: acquired
+  x-evidence: "It was acquired by Affirm in 2021, and its returnly."
 - type: DomainSecurity
   url: security/returnly-domain-security.yml
 - type: Website
