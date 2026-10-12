@@ -1,0 +1,31 @@
+generated: '2026-10-12'
+method: searched
+source:
+- https://zapier.com/apps/returnly/integrations
+- https://n8n.io/integrations/returnly/
+- https://composio.dev/toolkits/returnly
+- https://monid.ai/tools/returnly
+checked:
+- https://composio.dev/toolkits/returnly
+- https://monid.ai/tools/returnly
+- https://n8n.io/integrations/returnly/
+- https://zapier.com/apps/returnly/integrations
+summary: null
+marketplace_apps: []
+edges:
+- partner_name: shipmonk
+  partner: shipmonk
+  partner_match: domain
+  type: contract
+  channel: partner-built
+  relationship: processor-connection
+  direction: partner-built
+  evidence: https://github.com/api-evangelist/shipmonk/blob/main/openapi/shipmonk-returns-api-openapi.yml
+  contract_reference:
+    repo: shipmonk
+    spec_file: shipmonk-returns-api-openapi.yml
+    value: returnly
+    property: components.schemas.ShipMonk_Warehouse_Returns_Enum_ReturnEntitySource
+    detected_by: detect-payment-method-edges.py
+    detected: '2026-10-12'
+templates: []
